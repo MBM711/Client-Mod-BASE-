@@ -1,4 +1,4 @@
-# Client-Mod [![Build Status](https://github.com/Elinsrc/Client-Mod/actions/workflows/build.yml/badge.svg)](https://github.com/Elinsrc/Client-Mod/actions) <img align="right" src="https://raw.githubusercontent.com/Elinsrc/Client-Mod/refs/heads/master/android/app/src/main/res/drawable/ic_launcher.png" alt="Client-Mod" />
+# Client-Mod [![Build Status](https://github.com/Half-Life-Collective/Client-Mod/actions/workflows/build.yml/badge.svg)](https://github.com/Half-Life-Collective/Client-Mod/actions) <img align="right" src="https://raw.githubusercontent.com/Half-Life-Collective/Client-Mod/refs/heads/master/android/app/src/main/res/drawable/ic_launcher.png" alt="Client-Mod" />
 
  - **Client-Mod** is a modification of the **Half-Life** client part for **Xash3D FWGS and GoldSource**.
 
@@ -74,7 +74,7 @@
 ## Building
 Clone the source code:
 ```
-git clone https://github.com/Elinsrc/Client-Mod --recursive
+git clone https://github.com/Half-Life-Collective/Client-Mod --recursive
 ```
 ### Windows
 ```
@@ -95,5 +95,5 @@ cmake --build build --config Release
  - Thanks To Valve for [Half-Life](https://store.steampowered.com/app/70/HalfLife/) and [hlsdk](https://github.com/ValveSoftware/halflife)
  - Thanks To [FWGS](https://github.com/FWGS) for [hlsdk-portable](https://github.com/FWGS/hlsdk-portable)
  - Thanks To [YaLTeR](https://github.com/YaLTeR) for [OpenAG](https://github.com/YaLTeR/OpenAG)
- - Thanks To [Velaron](https://github.com/Velaron) for [AndroidLauncher](https://github.com/Elinsrc/Client-Mod/tree/master/android)
- - Thanks To [SNMetamorph](https://github.com/SNMetamorph) for [BuildInfo](https://github.com/Elinsrc/Client-Mod/blob/master/public/build_info.h) and [goldsrc-monitor](https://github.com/SNMetamorph/goldsrc-monitor)([used here](https://github.com/Elinsrc/Client-Mod/blob/master/cl_dll/ui/hud/hud_debug.cpp))
+ - Thanks To [Velaron](https://github.com/Velaron) for [AndroidLauncher](https://github.com/Half-Life-Collective/Client-Mod/tree/master/android)
+ - Thanks To [SNMetamorph](https://github.com/SNMetamorph) for [BuildInfo](https://github.com/Half-Life-Collective/Client-Mod/blob/master/public/build_info.h) and [goldsrc-monitor](https://github.com/SNMetamorph/goldsrc-monitor)([used here](https://github.com/Half-Life-Collective/Client-Mod/blob/master/cl_dll/ui/hud/hud_debug.cpp))

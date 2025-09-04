@@ -127,7 +127,7 @@ namespace discord_integration
 
 				presence.largeImageKey = "engine";
 				presence.smallImageKey = "client-mod";
-				presence.largeImageText = "https://github.com/Elinsrc/Client-Mod";
+				presence.largeImageText = "https://github.com/Half-Life-Collective/Client-Mod";
 				presence.smallImageText = "Client-Mod";
 
 				static int64_t gametime = time( 0 );

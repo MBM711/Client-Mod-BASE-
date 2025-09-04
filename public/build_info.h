@@ -142,7 +142,7 @@ namespace BuildInfo
 	// Returns project GitHub repository URL.
 	constexpr char *GetGitHubLink()
 	{
-		return "https://github.com/Elinsrc/Client-Mod";
+		return "https://github.com/Half-Life-Collective/Client-Mod";
 	}
 
 	// Returns build host machine date when program was built.

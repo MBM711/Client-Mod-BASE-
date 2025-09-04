@@ -164,11 +164,10 @@ int DLLEXPORT Initialize( cl_enginefunc_t *pEnginefuncs, int iVersion )
 	// for now filterstuffcmd is last in the engine interface
 	memcpy( &gEngfuncs, pEnginefuncs, sizeof(cl_enginefunc_t) - sizeof( void * ) );
 
-	ClientCmd( "clear" );
 	ClientCmd( "toggleconsole" );
-	ClientCmd( "echo \"Client Mod\"" );
-	ClientCmd( "echo \"GitHub page: https://github.com/Elinsrc/Client-Mod/\"" );
-	ClientCmd( "exec customconfig.cfg" );
+	ConsolePrint( "\n\nClient Mod\n" );
+	ConsolePrint( "GitHub page: https://github.com/Half-Life-Collective/Client-Mod\n\n\n" );
+	//ClientCmd( "exec customconfig.cfg" );
 
 #if USE_DISCORD_RPC
 	discord_integration::initialize( );
